@@ -12,9 +12,9 @@ export class AppController {
     return this.appService.getHello();
   }
 
-   serveAngular(@Res() res: Response) {
+  /* serveAngular(@Res() res: Response) {
     res.sendFile(
       join(__dirname, '..', 'public', 'index.html')
     );
-  }
+  } */
 }
