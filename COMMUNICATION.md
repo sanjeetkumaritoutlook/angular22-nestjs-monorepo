@@ -72,6 +72,15 @@ because Nest combines:
       =
 /hello/api/hello
 ```
+
+in summary:
+```
+✅ Angular 22 is running on localhost:4200
+✅ NestJS is running on localhost:3000
+✅ CORS is configured correctly
+✅ Angular HttpClient is calling NestJS successfully
+✅ Angular UI is updating with API data
+```
 ## NestJS CLI commands
 
 NestJS has a CLI very similar to Angular CLI. Since Angular inspired a lot of NestJS's architecture.
@@ -157,3 +166,36 @@ src/
 
 This is similar to Angular generating component + module + service scaffolding.	
 	
+ ## Angular CLI commands
+```
+ ng g s services/api
+```
+
+consume service in angular component (.ts class file)
+
+api.service.ts
+
+```
+@Injectable({
+  providedIn: 'root'
+})
+export class ApiService {
+  private http = inject(HttpClient);
+
+  getHello() {
+    return this.http.get<{message:string}>(
+      'http://localhost:3000/hello/api/hello'
+    );
+  }
+}
+```
+app.ts (component class)
+```
+private api = inject(ApiService);
+
+ngOnInit() {
+  this.api.getHello().subscribe(res => {
+    this.message.set(res.message);
+  });
+}
+```

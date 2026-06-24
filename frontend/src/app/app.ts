@@ -1,6 +1,7 @@
 import { Component, inject, signal,OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { Api } from './services/api';
 
 @Component({
   selector: 'app-root',
@@ -12,12 +13,11 @@ export class App implements OnInit {
   protected readonly title = signal('frontend');
 
     private http = inject(HttpClient);
-
+private api = inject(Api);
   //message = 'Loading...';
    message = signal('Loading...');
   ngOnInit() {
-    this.http
-      .get<{message:string}>('http://localhost:3000/hello/api/hello')
+   this.api.getHello()
       .subscribe({
         next: (res) => {
            console.log('API Response', res);
