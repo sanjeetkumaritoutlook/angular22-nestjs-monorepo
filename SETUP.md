@@ -12,6 +12,7 @@ NestJS serves static files
       ↓
 Render Web Service
 ```
+![version](assets/ng_build_path.png)
 
 ```
 // app.module.ts
@@ -52,7 +53,66 @@ start Command
 ```
 npm run start:prod --workspace server
 ```
+Keep API routes separate
 
+Use:
+```
+@Controller('api/users')
+```
+
+```
+/api/users
+/api/auth
+/api/contact
+```
+
+Then Angular routes can be:
+```
+/
+/projects
+/about
+/contact
+```
+
+to start angular
+```
+npm start
+```
+or 
+```
+ng serve
+```
+http://localhost:4200
+
+to run nest
+```
+npm run start:dev
+```
+http://localhost:3000
+
+
+it prints Hello World! from appService  , which is called in nestjs app controller file
+```
+npm install -D concurrently
+```
+
+Start Angular only:
+```
+npm run start:frontend
+```
+Start NestJS only:
+```
+npm run start:server
+```
+Start both:
+```
+npm start
+```
+You should see something like:
+```
+[0] Angular Live Development Server is listening on localhost:4200
+[1] Nest application successfully started
+```
 ## Option 2: Separate Angular and NestJS services
 
 ```

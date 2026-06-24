@@ -1,11 +1,15 @@
 {
   "scripts": {
+    "start:frontend": "cd frontend && ng serve",
+    "start:server": "cd server && npm run start:dev",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:server\"",
     "build:frontend": "cd frontend && ng build",
     "copy:frontend": "rimraf server/public && copyfiles -u 3 frontend/dist/frontend/browser/**/* server/public",
     "build:server": "cd server && npm run build",
     "build": "npm run build:frontend && npm run copy:frontend && npm run build:server"
   },
   "devDependencies": {
+    "concurrently": "^10.0.3",
     "copyfiles": "^2.4.1",
     "rimraf": "^6.1.3"
   }

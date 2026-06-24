@@ -1,5 +1,8 @@
 ## angular MCP server
-angular 22 on node 22+
+angular 22 on node 22+, Angular 22 was officially released on June 3, 2026
+```
+https://blog.angular.dev/announcing-angular-v22-c52bb83a4664
+```
 ![version](assets/setup2.png)
 ![version](assets/agents.png)
 
@@ -36,7 +39,7 @@ Render Web Service
 ```
 ## Create Angular first
 ```
-npx @angular/cli@22 new my-app
+npx @angular/cli@22 new frontend
 ```
 needs node v22 +
 
