@@ -6,6 +6,9 @@ https://blog.angular.dev/announcing-angular-v22-c52bb83a4664
 ![version](assets/setup2.png)
 ![version](assets/agents.png)
 
+AI tutor: https://angular.dev/ai/ai-tutor
+
+Develop with AI: https://angular.dev/ai/develop-with-ai
 ## on render
 ```
 monorepo-app/
@@ -90,3 +93,5 @@ Features:
 This can be deployed on Render's free/low-cost plan as a single Web Service without any issues.
 
 [CURE](https://github.com/sanjeetkumaritoutlook/angular22-nestjs-monorepo/releases/download/v1.0.0-cure/972504900-All-Zones-Detailed-Maps.pdf)
+
+![Tyrannosaurus_rex_known_as_Gus](Tyrannosaurus_rex_known_as_Gus.gif)
