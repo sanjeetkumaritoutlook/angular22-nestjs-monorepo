@@ -13,6 +13,34 @@ Develop with AI: https://angular.dev/ai/develop-with-ai
 ```
 monorepo-app/
 │
+├── .github/
+│   │
+│   ├── DISCUSSION_TEMPLATE/ (optional)
+│   ├── labels.yml
+│   ├── stale.yml
+│   ├── renovate.json (instead of Dependabot if preferred)
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   │   └── question.md
+│   │   └── config.yml
+│   │
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   ├── deploy.yml
+│   │   └── release.yml
+│   │   ├── codeql.yml
+│   │   └──dependabot-auto-merge.yml
+│   │
+│   ├── pull_request_template.md
+│   ├── CODEOWNERS
+│   ├── dependabot.yml
+│   ├── FUNDING.yml
+│   ├── SECURITY.md
+│   ├── SUPPORT.md
+│   ├── CODE_OF_CONDUCT.md
+│   
+│
 ├── frontend/        (Angular 22)
 │   ├── src
 │   ├── angular.json
@@ -25,6 +53,9 @@ monorepo-app/
 │
 ├── package.json     (root workspace)
 └── render.yaml      (optional)
+└── CONTRIBUTING.md
+└── README.md
+└── LICENSE
 ```
 
 ## deployment flow
@@ -93,5 +124,7 @@ Features:
 This can be deployed on Render's free/low-cost plan as a single Web Service without any issues.
 
 [CURE](https://github.com/sanjeetkumaritoutlook/angular22-nestjs-monorepo/releases/download/v1.0.0-cure/972504900-All-Zones-Detailed-Maps.pdf)
+
+https://boardgamegeek.com/boardgame/365742/bacon
 
 ![Tyrannosaurus_rex_known_as_Gus](Tyrannosaurus_rex_known_as_Gus.gif)
