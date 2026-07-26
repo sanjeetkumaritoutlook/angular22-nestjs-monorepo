@@ -1,0 +1,17 @@
+# Default owner for everything
+* @sanjeetkumaritoutlook-user
+
+# Frontend
+/frontend/ @frontend-dev
+
+# Backend
+/server/ @backend-dev
+
+# GitHub Workflows
+/.github/ @devops-team
+
+# Documentation
+*.md @technical-writer
+
+# Default owner
+* @sanjeetkumaritoutlook-user

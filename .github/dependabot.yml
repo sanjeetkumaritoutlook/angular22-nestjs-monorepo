@@ -1,0 +1,63 @@
+version: 2
+
+updates:
+  #
+  # Root package.json
+  #
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+    open-pull-requests-limit: 5
+
+    commit-message:
+      prefix: "deps"
+
+    labels:
+      - dependencies
+
+  #
+  # Angular frontend
+  #
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+
+    open-pull-requests-limit: 5
+
+    commit-message:
+      prefix: "deps(frontend)"
+
+    labels:
+      - dependencies
+      - frontend
+
+  #
+  # NestJS backend
+  #
+  - package-ecosystem: "npm"
+    directory: "/server"
+    schedule:
+      interval: "weekly"
+
+    open-pull-requests-limit: 5
+
+    commit-message:
+      prefix: "deps(server)"
+
+    labels:
+      - dependencies
+      - backend
+
+  #
+  # GitHub Actions
+  #
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+    labels:
+      - github-actions

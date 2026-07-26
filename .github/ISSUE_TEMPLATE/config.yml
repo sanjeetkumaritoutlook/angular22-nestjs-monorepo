@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/sanjeetkumaritoutlook/angular22-nestjs-monorepo/blob/main/README.md
+    about: Read the documentation before opening an issue.
+
+  - name: 💬 Discussions
+    url: https://github.com/sanjeetkumaritoutlook/angular22-nestjs-monorepo/discussions
+    about: Ask questions or share ideas.

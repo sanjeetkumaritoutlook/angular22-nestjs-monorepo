@@ -1,0 +1,32 @@
+# GitHub Sponsors username
+github: []
+
+# Patreon username
+patreon: ""
+
+# Open Collective username
+open_collective: ""
+
+# Ko-fi username
+ko_fi: ""
+
+# Tidelift platform name/package-name
+tidelift: ""
+
+# Community Bridge project name
+community_bridge: ""
+
+# Liberapay username
+liberapay: ""
+
+# IssueHunt username
+issuehunt: ""
+
+# Otechie username
+otechie: ""
+
+# LFX Crowdfunding project
+lfx_crowdfunding: ""
+
+# Custom sponsorship URLs
+custom: []
