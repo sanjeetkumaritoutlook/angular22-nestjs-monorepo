@@ -9,7 +9,7 @@
     "build": "npm run build:frontend && npm run copy:frontend && npm run build:server"
   },
   "devDependencies": {
-    "concurrently": "^10.0.3",
+    "concurrently": "^10.0.4",
     "copyfiles": "^2.4.1",
     "rimraf": "^6.1.3"
   }
