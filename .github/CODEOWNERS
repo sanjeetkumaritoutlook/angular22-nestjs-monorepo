@@ -13,5 +13,5 @@
 # Documentation
 *.md @technical-writer
 
-# Default owner
-* @sanjeetkumaritoutlook-user
+# Protect CODEOWNERS itself
+/.github/CODEOWNERS @sanjeetkumaritoutlook-user
