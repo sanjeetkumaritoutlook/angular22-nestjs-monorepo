@@ -39,3 +39,10 @@ data scientist
 * Pydantic AI: A type-safe, dependency-injected Python framework tailored for backend engineers who want robust structured outputs.
 * Microsoft Agent Framework: Unifies enterprise components for scalable multi-agent systems with open standards.
 * Vercel AI SDK / LangChain: Ideal for TypeScript or Python ecosystems to stream and connect LLMs with frontend hooks
+
+
+Role: Senior Cloud Security & DevOps Engineer 
+
+Expertise: Cloud security, HIPAA-compliant architectures, Azure, AWS, CI/CD, and GitOps delivery
+
+cloud infrastructure, Azure/AWS architectures, and GitOps pipelines 
