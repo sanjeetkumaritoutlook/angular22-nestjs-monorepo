@@ -9,6 +9,10 @@ https://blog.angular.dev/announcing-angular-v22-c52bb83a4664
 AI tutor: https://angular.dev/ai/ai-tutor
 
 Develop with AI: https://angular.dev/ai/develop-with-ai
+
+angular starts on http://localhost:4200/
+
+nestjs starts on http://localhost:3000/
 ## on render
 ```
 monorepo-app/
@@ -128,3 +132,25 @@ This can be deployed on Render's free/low-cost plan as a single Web Service with
 https://boardgamegeek.com/boardgame/365742/bacon
 
 ![Tyrannosaurus_rex_known_as_Gus](Tyrannosaurus_rex_known_as_Gus.gif)
+
+## source-code hosting platforms
+github
+
+gitlab
+
+bitbucket
+
+azure devops
+
+## MAI-Code-1.1-Flash
+
+https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot/
+
+https://medium.com/@roanmonteiro/the-complete-guide-to-anthropics-claude-certifications-the-4-exams-the-prerequisite-that-blocks-4d1f743bc5c4
+
+
+https://medium.com/@ravianandjec/understanding-copilot-customization-instructions-agents-and-skills-01cf715a930d
+
+https://github.com/mehmetozkaya/genai-for-dotnet/blob/main/README.md#-course-update-migrating-away-from-github-models
+
+https://github.com/mehmetozkaya/genai-for-dotnet
