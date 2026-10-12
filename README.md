@@ -127,6 +127,10 @@ Features:
 
 This can be deployed on Render's free/low-cost plan as a single Web Service without any issues.
 
+## AWS fundamentals
+https://awsfundamentals.com/
+
+
 [CURE](https://github.com/sanjeetkumaritoutlook/angular22-nestjs-monorepo/releases/download/v1.0.0-cure/972504900-All-Zones-Detailed-Maps.pdf)
 
 https://boardgamegeek.com/boardgame/365742/bacon
@@ -142,10 +146,33 @@ bitbucket
 
 azure devops
 
+Human-in-the-loop (HITL)
+
+https://roadmap.sh/
 ## MAI-Code-1.1-Flash
 
 https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot/
 
+https://github.com/microsoft/MAI-Code
+
+https://microsoft.ai/
+
+## angular 17 ai logic box
+
+```
+ iMocha's patented pseudo-coding platform. It evaluates an Angular 17 developer's core architectural and programming logic rather than strict syntax accuracy.
+• How it works: It acts as a "code in the blanks" window where candidate answers are auto-evaluated using partial scoring based on real-world scenarios
+
+https://www.imocha.io/tests/angular-17-skills-test
+
+https://www.imocha.io/platform/ai-logicbox
+```
+
+
+## pep8 style guide
+```
+PEP 8 is the official Python Enhancement Proposal that serves as the definitive style guide for writing clean, readable, and consistent Python code.
+```
 https://medium.com/@roanmonteiro/the-complete-guide-to-anthropics-claude-certifications-the-4-exams-the-prerequisite-that-blocks-4d1f743bc5c4
 
 
@@ -154,3 +181,11 @@ https://medium.com/@ravianandjec/understanding-copilot-customization-instruction
 https://github.com/mehmetozkaya/genai-for-dotnet/blob/main/README.md#-course-update-migrating-away-from-github-models
 
 https://github.com/mehmetozkaya/genai-for-dotnet
+
+https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html
+
+Markdown has become the common language between humans and AI agents - specs, plans, READMEs, tables, task lists, generated docs - so much of this starts as .md.
+
+Now you can keep the file as Markdown and still use your favorite Docs collaboration workflows. :)
+## build ai agents end to end in vs code
+https://techcommunity.microsoft.com/blog/azuredevcommunityblog/build-ai-agents-end-to-end-in-vs-code/4418117
